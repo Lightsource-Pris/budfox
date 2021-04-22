@@ -1318,3 +1318,8 @@ footer .bottom-footer p {font-size: 15px;}
 .form-validation label.error {display: none !important;}
 .form-validation input.error {border:1px solid #f03838 !important;}
 .form-validation textarea.error {border-bottom:1px solid #f03838 !important;}
+@media (max-width:576px){
+  .float-right{
+    display: none;
+  }
+}
