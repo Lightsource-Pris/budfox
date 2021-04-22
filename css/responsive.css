@@ -1,0 +1,170 @@
+/* Responsive CSS Document */
+
+/*
+    Created on   : 15/05/2017.
+    Theme Name   : Snappy.
+    Description  : Snappy |**| Responsive Business Template.
+    Version      : 1.0.
+    Author       : @TheMazine.
+    Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
+
+*/
+
+
+
+@media (min-width: 992px) {
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media (max-width: 1199px) {
+  footer .footer-list, footer .Subscribe {padding-left: 15px;}
+  .snappy-main-container.space-fix {margin: 0 -25px;}
+  .snappy-main-container.space-fix .snappy-col {padding: 0 25px;}
+}
+/*(max-width: 1199px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .short-banner h5 {font-size: 24px;}
+  .our-service .single-service .text,.snappy-plan .single-plan,.our-project .single-project .text {padding-left: 10px;padding-right: 10px;}
+  .consultation-help .section-part .col {max-width: 485px;}
+  .consultation-help .text-wrapper h4 br {display: none;}
+  .consultation-help .consultation-form-wrapper {padding-right: 40px;}
+  .client-testimonial .testimonial .testimonial-slider .name {width: 29%;}
+  .client-testimonial .testimonial .testimonial-slider p {width: 71%;}
+  .our-team .single-team-member .member-info {padding: 12px 10px 0 10px;}
+  .our-service-v2 .single-service .text {width: 40%;padding-top: 20px;padding-bottom: 21px;}
+  .our-service-v2 .single-service img {width: 60%;}
+  .snappy-main-container .snappy-sidebar .sidebar-list ul li a span {padding-right: 0;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+
+@media (max-width: 991px) {
+  header .top-header .logo,header .top-header ul {float:none;text-align: center;}
+  header .top-header .logo {margin-bottom: 20px;}
+  header .top-header ul li {margin-top: 15px;}
+  header .top-header ul li:first-child i {margin-left: 0;}
+  header .top-header ul li a {margin-left: 15px;}
+  header .top-header ul li>i {margin: 0 15px;}
+  header .theme-main-menu #mega-menu-holder  li.quote a:before {display: none;}
+  header .theme-main-menu #mega-menu-holder  li.quote a {width: 100%;}
+  .business-support .text,.business-support .image,.client-testimonial .testimonial,.client-testimonial .team-wrapper,
+  .snappy-main-container .snappy-large-content,.our-service-v2 .single-service img {width: 100%;}
+  .business-support .image {margin-top: 40px;}
+  .short-banner h5,.short-banner a {float:none;}
+  .short-banner {text-align: center;}
+  .short-banner h5 {margin-bottom: 25px;}
+  .consultation-help .section-part {width:100%;}
+  .consultation-help .text-wrapper .opacity {padding-left: 0;}
+  .theme-counter .opacity {padding: 50px 0 40px 0;}
+  .theme-counter .opacity .text-center {margin: 25px 0;}
+  .theme-counter .opacity p {margin-bottom: 0;}
+  .client-testimonial .team-wrapper,.client-testimonial .row .col {margin: 25px 0;}
+  .snappy-main-container .snappy-large-content {margin-bottom: 50px;}
+  .our-service-v2 .single-service .text {width: 100%;border-left:1px solid #e8e6e6;border-top:none;}
+  .blog-details-content .leave-reply button {float:none;}
+}
+/*(max-width: 991px)*/
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .consultation-help .section-part .col {max-width: none;float: none;width: 720px;margin: 0 auto;}
+  .consultation-help .consultation-form-wrapper {padding: 0 0 50px 0;}
+  footer .Subscribe {margin-top: 50px;}
+  .snappy-main-container .snappy-sidebar {width: 50%;}
+  .our-team .single-team-member .member-info {padding: 75px 10px 70px 10px;}
+  .our-project.style-three .mix {width: 33.33333%;}
+  #theme-main-banner .tp-caption h1 {font-size: 50px;}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+  .theme-title h2 br {display: none;font-size: 38px;}
+  .theme-title p br,.snappy-main-container .snappy-large-content .details-middle-content h3 br {display: none;}
+  .our-service .single-service .text,.our-blog .single-blog .post,.our-project .single-project .text {padding-left: 10px;padding-right: 10px;}
+  .our-service .single-service img,.our-blog .single-blog img,.snappy-main-container .snappy-sidebar,
+  .our-team .single-team-member .member-info,.our-team .single-team-member img {width: 100%;}
+  .consultation-help .section-part .col {max-width: none;padding: 0 15px;}
+  .consultation-help .consultation-form-wrapper {margin-bottom: 50px;}
+  footer .top-footer .col-xs-12 {margin-bottom: 50px;}
+  footer .bottom-footer {margin-top: 15px;}
+  .snappy-inner-banner {padding-top: 100px;}
+  .our-team .single-team-member .member-info {border-left: 1px solid #e8e6e6;border-top: none;}
+  .our-team .single-team-member .member-info:before {border-left: 2px solid #35b8f8;width: 100%;}
+  .error-page {padding: 0;}
+  .mixitUp-menu ul li:first-child {margin-left: 10px;}
+  .our-service-v2 .single-service .text {padding-left: 20px;}
+  .our-project.style-three .mix {width: 50%;}
+  #contact-google-map {margin-top: 100px;}
+  #theme-main-banner .tp-caption h1 {font-size: 34px;}
+  #theme-main-banner .tp-caption h5 {font-size: 18px;}
+  #theme-main-banner .tp-caption p br {display: none;}
+  #theme-main-banner .tp-caption h3 {font-size: 26px;}
+}
+/*(max-width: 767px)*/
+
+@media (max-width: 650px) {
+  #success,#error {
+    width: 84%;
+    height: auto;
+    top: calc(50% - 50px);
+    left: 8%;
+    padding: 30px 10px;
+  }
+  .blog-width-sidebar .single-blog h4 a br,.blog-details-content .post h4 br {display: none;}
+  .blog-details-content .tag-option ul {float: none;}
+  .blog-details-content .tag-option a.back {
+    position: static;
+    -webkit-transform:none;
+            transform:none;
+    margin-top: 30px;
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .our-service .col-xs-6,.our-project .col-xs-6,.our-blog .col-xs-6 {width: 100%;}
+  .blog-details-content .comment-area .reply-comment {margin-left: 20px;}
+  .blog-details-content .comment-area .text button {display: block;margin-top: 15px;}
+  .blog-details-content .comment-area .text span {margin-right: 0;padding: 0 15px;}
+}
+
+@media (max-width: 500px) {
+  header .top-header ul li:nth-child(1),header .top-header ul li:nth-child(2) {display: block;}
+  header .top-header ul li>li {margin-left: 0;}
+  header .top-header ul li a {margin: 0 7px;}
+  .client-testimonial .testimonial .testimonial-slider .name {width: 100%;}
+  .client-testimonial .testimonial .testimonial-slider p {width: 100%;padding: 30px 0 0 0;}
+  .client-testimonial .testimonial .testimonial-slider .item .clearfix {padding-left: 15px;padding-right: 15px;}
+  .client-testimonial .testimonial .testimonial-slider .name img {left:50%;margin-left: -50px;}
+}
+
+
+@media (max-width: 480px) {
+  .scroll-top {right:5px; bottom: 5px;}
+  .page-pagination li a {width: 45px;line-height: 38px;font-size: 18px;}
+  .contact-address .address li {padding-left: 50px;}
+  .contact-address .address li i {left:0;}
+  .contact-address .address:before {left:16px;}
+  .contact-address .icon li a {width: 50px;line-height: 50px;}
+}
+
+
+@media (max-width: 450px) {
+  .theme-counter .opacity .number {font-size: 40px;}
+  .our-project.style-three .mix {width: 100%;}
+}
+
+
+@media (max-width: 400px) {
+  .consultation-help .text-wrapper h4 br {display: none;}
+  .theme-counter .opacity .col-xs-6 {width: 100%;}
+  footer .Subscribe form button {width: 80px;font-size: 14px;}
+  .snappy-main-container .snappy-large-content .project-description ul {padding-right: 0;}
+}
+
+@media (max-width: 380px) {
+  .snappy-main-container .snappy-sidebar .sidebar-list ul li a {font-size: 16px;padding-left: 20px;}
+}
