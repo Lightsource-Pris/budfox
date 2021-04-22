@@ -1323,3 +1323,6 @@ footer .bottom-footer p {font-size: 15px;}
     display: none;
   }
 }
+.snappy-inner-banner{
+  background: url('../images/home/about.jpg');
+  }
