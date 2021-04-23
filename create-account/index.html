@@ -20,16 +20,32 @@
 	<link rel="stylesheet" type="text/css" href="../css/responsive.css">
 	<script src="../js/jquery-3.5.1.js"></script>
 	</head>
-
 	<body>
+		<style>			
+			.gooplay{
+				margin-right: 10px;
+			}
+			@media (max-width:550px){
+					.gooplay{
+					margin-right: 0!important;
+				}
+				.apps{
+						margin-top: 10px;
+					}
+				}
+	</style>
 		<script>
         
 			$(function(){
 				$("#footer").load("../includes2/footer.html");
+				$("#budfox-way").load("../includes2/budfox-way.html");
 			});
 		</script>
 		<div class="main-page-wrapper">
 
+			<!-- ===================================================
+			Transition
+			==================================================== -->
 			<div id="loader-wrapper">
 				<div id="loader"></div>
 			</div>
@@ -37,7 +53,7 @@
 
 			<!--
 			=============================================
-				Theme Header
+			 Header
 			==============================================
 			-->
 			<header>
@@ -69,7 +85,7 @@
 							   <li><a href="../about/">About us</a></li>
 							   <li><a href="../contact/">contact us</a></li>
 							   <!-- <li><a href="">Documentation</a></li> -->
-							   <li class="quote float-right p-bg-color hvr-icon-wobble-horizontal"><a href="../create-account/">Create Account</a></li>
+							   <li class="quote float-right p-bg-color hvr-icon-wobble-horizontal"><a href="">Create Account</a></li>
 							</ul>
 						 </nav>
 					</div>
@@ -85,116 +101,59 @@
 			-->
 			<div class="snappy-inner-banner">
 				<div class="container">
-					<h2 style="color: #ffffff;">Contact Us</h2>
+					<h2 style="color: #ffffff;">Create Account</h2>
 					<ul>
 						<li><a style="color: #ffffff;" href="../" class="tran3s">Home</a></li>
 						<li>.</li>
-						<li>Contact</li>
+						<li>Create Account</li>
 					</ul>
 				</div>
-			</div> 
-			
-
-			
-			<!--
-			=============================================
-				Contact Form
-			==============================================
-			-->
-			<div class="contact-form">
-				<div class="container">
-					<div class="text-center">
-						<h2>We'd like to Hear from you</h2>
-						<p>Do you have any queries, inquiries or suggestion that you would like to pass across to us at BUDFOX?<br>We would be pleased to receive your message and attend to them as promptly as possible</p>
-					</div>
-					<form action="" class="form-validation" method="POST" autocomplete="off">
-						<div class="row">
-							<div class="col-md-4 col-xs-12">
-								<input type="text" placeholder="Name" name="name">
-							</div>
-							<div class="col-md-4 col-sm-6 col-xs-12">
-								<input type="email" placeholder="Email" name="email">
-							</div>
-							<div class="col-md-4 col-sm-6 col-xs-12">
-								<input type="text" placeholder="Subject" name="sub">
-							</div>
-						</div> <!-- /.row -->
-						<textarea placeholder="Message" name="message"></textarea>
-						<button class="theme-button p-bg-color hvr-bounce-to-right">Submit</button>
-					</form>
-
-					<!--Contact Form Validation Markup -->
-					<!-- Contact alert -->
-					<div class="alert-wrapper" id="alert-success">
-						<div id="success">
-							<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
-							<div class="wrapper">
-				               	<p>Your message was sent successfully.</p>
-				             </div>
-				        </div>
-				    </div> <!-- End of .alert-wrapper -->
-				    <div class="alert-wrapper" id="alert-error">
-				        <div id="error">
-				           	<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
-				           	<div class="wrapper">
-				               	<p>Sorry!Something Went Wrong.</p>
-				            </div>
-				        </div>
-				    </div> <!-- End of .alert-wrapper -->
-				</div> <!-- /.container -->
-			</div> <!-- /.contact-form -->
+			</div>
 
 
 
 			<!--
 			=============================================
-				Contact Address
+				Account Creation
 			==============================================
 			-->
-			<div class="contact-address">
+			<div class="consultation-help clearfix" style="margin-top: -150px!important; margin-bottom: 30px;">
 				<div class="container">
-					<div class="row">
-						<div class="col-md-4 col-sm-6 col-xs-12 address-list">
-							<ul class="address">
-								<li>
-									<i class="flaticon-map"></i>
-									30, Afolabi Brown ,Akoka , Lagos, Nigeria.<br> <br>
-									Business hours: <br>
-									8:00 – 21:00 Monday – Saturday <br>
-								</li>
-								<li>
-									<i class="flaticon-mail"></i>
-									<a class="__cf_email__" data-cfemail="e5b68b8495959cba8c8b838aa58288848c89cb868a88">info@budfoxcapitals.com</a>
-								</li>
-								<li>
-									<i class="flaticon-phone"></i>
-									+234 9137376896
-								</li>
-							</ul>
-							<!-- <ul class="icon">
-								<li><a href="#" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#" class="tran3s"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								<li><a href="#" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-								<li><a href="#" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							</ul> -->
-						</div> <!-- /.address-list -->
-
-						<div class="col-md-8 col-sm-6 col-xs-12">
-							<!-- Google Map _______________________ -->
-							<div id="google-map-area">
-								<iframe src="https://www.google.com/maps/embed?pb=
-								!1m18!1m12!1m3!1d3963.9666955211137!2d3.388917849025321!3d6.
-								525890295256566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
-								1s0x103b8d1d11947867%3A0xcd7e33b5de73c0ec!2s30%20Afolabi%20Brown%
-								20St%2C%20Akoka%2C%20Lagos!5e0!3m2!1sen!2sng!4v1619179746604!5m2!
-								1sen!2sng" width="600" height="450" style="border:0;" 
-								allowfullscreen="" loading="lazy"></iframe>
-					   		 </div>
-						</div>
-					</div> <!-- /.row -->
+					<div class="theme-title">
+						<h2>Create An APAMO Account</h2>
+						<p>What is <b>APAMO</b>? <b>APAMO</b> is the official mobile app for <b>BUDFOX</b> financial services. 
+							<br>Create an account now and download the app on 
+							<a href="http://play.google.com/store/apps/">Googleplay</a> 
+							or on the ios <a href="http://appstore.com/">App Store</a></p>
+					</div> <!-- /.theme-title -->
 				</div> <!-- /.container -->
-			</div> <!-- /.contact-address -->
-			
+				<div class="clearfix">
+					<div class="section-part float-left">
+						<div class="consultation-form-wrapper float-right col">
+							<form action="" method="POST">
+								<input required type="email" name="email_ad" placeholder="Email">
+								<input required type="text" name="phone_number" placeholder="Phone">
+								<input required type="password" id="pass1" onkeyup="check_pass()" name="password1" placeholder="Password">
+								<input required type="password" id="pass2" onkeyup="check_pass()" name="password2" placeholder="Password Again">
+								<h6 id="comment" style="display: none;">Password Mismatch</h6>
+								<button disabled id="btn" class="theme-button p-bg-color hvr-bounce-to-right">Create Account</button>
+							</form>
+						</div> <!-- /.consultation-form-wrapper -->
+					</div> <!-- /.section-part -->
+
+					<div class="section-part float-left text-wrapper">
+						<div class="opacity clearfix">
+							<div class="col float-left">
+								<h4>Download <br>The <span class="p-color">APAMO</span> <br> Mobile Application</h4>
+								<p>What is <b>APAMO</b>? <b>APAMO</b> is the official mobile application for <b>BUDFOX</b> financial services.</p>
+								<a href="http://play.google.com/store/apps/" class="p-bg-color hvr-bounce-to-right gooplay"><img src="../images/home/googleplay.png"></a>
+								<a href="http://appstore.com/" class="p-bg-color hvr-bounce-to-right apps"><img src="../images/home/ios.jpg"></a>
+							</div> <!-- /.col -->
+						</div> <!-- /.opacity -->
+					</div> <!-- /.section-part -->
+				</div>
+			</div> <!-- /.consultation-help -->
+
 
 			<!-- 
 			=============================================
@@ -246,7 +205,30 @@
 
 		<!-- Theme js -->
 		<script type="text/javascript" src="../js/theme.js"></script>
+		<script>
+			function check_pass(){
+				var pass1 = document.getElementById('pass1');
+				var pass2 = document.getElementById('pass2');
+				var comment_sty = document.getElementById('comment');
+				var btn = document.getElementById('btn');
+				comment_sty.style.display="block";
+				comment_sty.innerHTML="Checking Password...";
+				if(pass1.value == pass2.value){
+					comment_sty.innerHTML='Password Match';
+					comment_sty.style.color='green';
+					btn.disabled=false;
+				}else{
+					comment_sty.innerHTML='Password Mismatch';
+					comment_sty.style.color='red';
+					btn.disabled=true;
+					
+				}
 
-		</div>
+			}
+		</script>
+
+		</div> <!-- /.main-page-wrapper -->
 	</body>
+
+<!-- Mirrored from themazine.com/html/snappy/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 28 Mar 2021 21:41:56 GMT -->
 </html>
